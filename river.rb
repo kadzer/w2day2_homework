@@ -3,7 +3,7 @@ attr_accessor :name
 
   def initialize(name, fishes)
     @name = name
-    @fishes = []
+    @fishes = fishes
   end
 
   def count_fish()
